@@ -1337,6 +1337,9 @@ main {
   .severalsPlans__content {
     align-items: center !important;
   }
+  .form input {
+    width: auto;
+  }
 }
 
 @media (min-width: 1311px) and (max-width: 1390px) {
