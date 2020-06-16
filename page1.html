@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pukkart</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+
+  <!--Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top top-header align-items-center">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand ml-2" href="#">
+        <img src="img/logo.png" alt="logo" class="logo-desctop">
+        <img src="img/Pukkar.png" alt="logo" class="logo-mobile">
+    </a>
+
+    <div class="brand-line"></div>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <img src="img/menu_icon.png" alt="menu_icon">
+      </span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse white-text mr-2" id="basicExampleNav">
+
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Spanish</a>
+            <div class="dropdown-menu dropdown-lang" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>English</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>French</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>German</a>
+            </div>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Faqs</a>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown ml-sm-0 ml-lg-2">
+          
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="img/user.png" class="nav-link" alt="">Álvaro
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fa fa-user fa-lg ml-1 mr-3" aria-hidden="true"></i>My Profile</a>
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fas fa-door-open fa-lg mr-2"></i>Log Out</a>
+            </div>
+        </li>
+  
+  
+      </ul>
+      <!-- Links -->
+      </div>
+  </nav>
+  <!--/.Navbar-->
+</header>
+
+    <div class="sidebar position-fixed">
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                      <img src="img/user.png" alt="user"><span class="ml-4">Álvaro Fernández</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#" class="menu-active">
+                    <i class="fas fa-image fa-lg"></i><span class="ml-4">My Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-stamp fa-lg"></i><span class="ml-4">My Certificates</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4">Sold Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-print fa-lg"></i><span class="ml-4">2D FineArt Prints</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-cube fa-lg"></i><span class="ml-4">3D Quality Prints</span> 
+                  </a>
+              </li>
+            </ul>
+
+            <hr class="sidebar-desctop">
+
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                    <i class="fas fa-heart fa-lg"></i><span class="ml-4">My Collectors</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-door-open fa-lg"></i><span class="ml-4">Log Out</span> 
+                  </a>
+              </li>
+            </ul>
+
+        <!-- sidebar-mobile -->
+        <ul class="sidebar-mobile">
+          <li>
+              <a href="#">
+                  <img src="img/user.png" alt="user"><span class="ml-4"></span>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="menu-active">
+                <i class="fas fa-image fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-stamp fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-print fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-cube fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          </ul>
+
+        
+
+          <ul class="sidebar-mobile">
+            <li>
+                <a href="#">
+                  <i class="fas fa-heart fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fas fa-door-open fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+          </ul>
+      <!-- sidebar-mobile -->
+    </div>
+    <!-- sidebar -->
+
+<main>
+    <div class="container-fluid px-5">
+        <div class="row px-3 pt-1 justify-content-between align-items-center">
+           <h5 class="text-uppercase text-myRed font-weight-bold m-0 mb-2">MY ARTWORKS</h5>
+           <div class="artworks-nav">
+                <a href="#" class="font-weight-bold mb-2">Pukkart</a>
+                <img src="img/Arrow-right.png" alt="right" class="mx-3 mb-2">
+                <a href="#" class="mr-5 mb-2">My Artworks</a>
+                <button type="button" class="btn cart">
+                  <span class="btn-badge">0</span>
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <span class="font-weight-bold ml-2">My Cart</span>
+                </button>
+           </div>
+        </div>
+
+        <hr class="mt-1 mb-4">
+
+        <div class="filter">
+     
+         
+          <div class="form pb-4">
+            <input type="text" placeholder="Search artwork..." class="mb-2 mr-2">
+            
+            <div class="__select mr-2 mb-2" data-state="">
+              <div class="__select__title" data-default="Option 0">All</div>
+              <div class="__select__content">
+                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect0" class="__select__label">All</label>
+                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect0" class="__select__label">All</label>
+                <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1" class="__select__label">Painting</label>
+                <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2" class="__select__label">Sculpture</label>
+                <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3" class="__select__label">Graphic Design</label>
+                <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4" class="__select__label">3D Model</label>
+              </div>
+            </div>
+
+            <button type="button" class="mb-2 mr-2">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="mb-2 font-weight-bold">
+              Clear
+            </button>
+            
+            <div class="form-line mx-3 mb-2"></div>
+
+            <div class="odred font-weight-bold mr-3 align-self-center">Order by</div>
+
+            <div class="__select mr-2 mb-2" data-state="">
+              <div class="__select__title" data-default="Option 0">Name</div>
+              <div class="__select__content">
+                <input id="singleSelect00" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect00" class="__select__label">Name</label>
+                <input id="singleSelect00" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect00" class="__select__label">Name</label>
+                <input id="singleSelect11" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect11" class="__select__label">Name</label>
+              </div>
+            </div>
+
+            <label for="orders2" class="font-weight-bold mr-3">View</label>
+
+
+            <div class="__select mr-2 mb-2" data-state="">
+              <div class="__select__title" data-default="Option 0"><i class="fa fa-list mr-2" aria-hidden="true"></i></div>
+              <div class="__select__content">
+                <input id="singleSelect0102" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect0102" class="__select__label"><i class="fa fa-list mr-2" aria-hidden="true"></i>Table</label>
+                <input id="singleSelect002" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect002" class="__select__label"><i class="fa fa-list mr-2" aria-hidden="true"></i>Table</label>
+                <input id="singleSelect112" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect112" class="__select__label"><i class="fa fa-th mr-2" aria-hidden="true"></i>Grid</label>
+              </div>
+            </div>
+
+          </div>
+        
+    
+        
+        <div class="form pb-4">
+          <button type="button" class="mb-2 btn-upload">
+            <i class="fa fa-plus mr-2" aria-hidden="true"></i>
+            <span class="font-weight-bold">Upload new artwork</span> 
+          </button>
+        </div>
+     
+        <!-- Form -->
+      </div>
+
+        <section>
+        <div class="row justify-content-around flex-wrap">
+          <div class="card p-3">
+            <!-- Card -->
+        
+            <h5>Las Meninas</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture1.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right certificates">Unique Artwork</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates">None</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">1<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+           
+         
+           <!-- Card -->
+
+      
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>La Virgen de la roca</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture2.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons2">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus2" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons2">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel2">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+       
+           <!-- Card -->
+
+          
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>Noche lluviosa</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture3.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons3">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus3" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons3">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel3">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+      
+           <!-- Card -->
+
+     
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>Noche estrellada</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture4.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons4">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus4" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons4">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel4">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          
+           <!-- Card -->
+
+       
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>Los Girasoles</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture5.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons5">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus5" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons5">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel5">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+      
+           <!-- Card -->
+
+          
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>La balsa de la medusa</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture6.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons6">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus6" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons6">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel6">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+     
+           <!-- Card -->
+
+        
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>El Pensador</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture7.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons7">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus7" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons7">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel7">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+    
+           <!-- Card -->
+
+        
+            <!-- Card -->
+          <div class="card p-3">
+            <h5>Gravedad</h5>
+            <!-- Card image -->
+            <img class="card-img-top" src="img/grid_1_page/Picture8.png" alt="Picture1">
+
+            <!-- Card content -->
+            <div class="card-body p-0 pt-2 justify-content-between">
+              <!-- Text -->
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>Editions</small>
+                    </div>
+                    <div class="col">
+                      <div class="text-right">20</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content">
+                  <div class="row">
+                    <div class="col">
+                      <small>My editions</small>
+                    </div>
+                    <div class="col text-right">
+                      <div>10</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body-content no-border">
+                  <div class="row">
+                    <div class="col">
+                      <small>Certificates</small>
+                    </div>
+                    <div class="col text-right">
+                      <div class="certificates font-weight-bold">7<i class="fa fa-eye ml-2" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button -->
+                <div class="card-body-buttons mt-2" id="card-body-buttons8">
+                  <a href="#" class="btn btn-danger m-0">Certify</a>
+                  <a href="#" class="btn btn-danger m-0">Register sale</a>
+                  <a id="btn-plus8" class="btn btn-light m-0"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="card-body-moreButtons" id="card-body-moreButtons8">
+                  <div class="card-body-moreButtons-icons">
+                    <i class="fa fa-print" aria-hidden="true"><p class="mb-0">Print</p></i>
+                    <i class="fas fa-pencil-alt"><p class="mb-0">Edit</p></i>
+                    <i class="fa fa-trash" aria-hidden="true"><p class="mb-0">Delete</p></i>
+                  </div>
+                  <a id="btn-cancel8">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+       
+           <!-- Card -->
+          
+        </div>
+      </section>
+      <!-- section 1 page -->
+      <div class="row justify-content-between m-0 pb-4">
+       
+          <nav aria-label="Page navigation example">
+            <ul class="pagination pg-white font-weight-bold">
+              <li class="page-item">
+                <a class="page-link" aria-label="Previous">
+                  <span aria-hidden="true">
+                    <img src="img/Left_arrow.png" alt="Left_arrow">
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link">1</a></li>
+              <li class="page-item"><a class="page-link">...</a></li>
+              <li class="page-item"><a class="page-link">3</a></li>
+              <li class="page-item"><a class="page-link">4</a></li>
+              <li class="page-item active"><a class="page-link">5</a></li>
+              <li class="page-item"><a class="page-link">6</a></li>
+              <li class="page-item"><a class="page-link">7</a></li>
+              <li class="page-item"><a class="page-link">...</a></li>
+              <li class="page-item"><a class="page-link">10</a></li>
+              <li class="page-item">
+                <a class="page-link" aria-label="Next">
+                  <span aria-hidden="true">
+                    <img src="img/Right_arrow.PNG" alt="Right_arrow">
+                  </span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        
+          <div class="pagination-items">
+            <small class="mr-5">Rows per page: <span class="font-weight-bold">7</span>
+              <a href=""><img src="img/Arrow-down.png" alt="Arrow" class="ml-2 pag-arrow"></a><span>
+  
+              </span>
+            </small>
+            <small>Showing <span class="font-weight-bold">1 to 7 </span>of 700</small>
+          </div>
+      </div>
+    </div>
+</main>
+<!-- main -->
+
+
+ 
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  
+ 
+
+</body>
+</html>

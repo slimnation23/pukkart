@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pukkart</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    <!-- Your custom styles (optional) -->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+
+  <!--Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top top-header align-items-center">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand ml-2" href="#">
+        <img src="img/logo.png" alt="logo" class="logo-desctop">
+        <img src="img/Pukkar.png" alt="logo" class="logo-mobile">
+    </a>
+
+    <div class="brand-line"></div>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <img src="img/menu_icon.png" alt="menu_icon">
+      </span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse white-text mr-2" id="basicExampleNav">
+
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Spanish</a>
+            <div class="dropdown-menu dropdown-lang" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>English</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>French</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>German</a>
+            </div>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Faqs</a>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown ml-sm-0 ml-lg-2">
+          
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="img/user.png" class="nav-link" alt="">Álvaro
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fa fa-user fa-lg ml-1 mr-3" aria-hidden="true"></i>My Profile</a>
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fas fa-door-open fa-lg mr-2"></i>Log Out</a>
+            </div>
+        </li>
+  
+  
+      </ul>
+      <!-- Links -->
+      </div>
+  </nav>
+  <!--/.Navbar-->
+</header>
+
+    <div class="sidebar position-fixed">
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                      <img src="img/user.png" alt="user"><span class="ml-4">Álvaro Fernández</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-image fa-lg"></i><span class="ml-4">My Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-stamp fa-lg"></i><span class="ml-4">My Certificates</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4">Sold Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-print fa-lg"></i><span class="ml-4">2D FineArt Prints</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-cube fa-lg"></i><span class="ml-4">3D Quality Prints</span> 
+                  </a>
+              </li>
+            </ul>
+
+            <hr class="sidebar-desctop">
+
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                    <i class="fas fa-heart fa-lg"></i><span class="ml-4">My Collectors</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-door-open fa-lg"></i><span class="ml-4">Log Out</span> 
+                  </a>
+              </li>
+            </ul>
+
+        <!-- sidebar-mobile -->
+        <ul class="sidebar-mobile">
+          <li>
+              <a href="#">
+                  <img src="img/user.png" alt="user"><span class="ml-4"></span>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="menu-active">
+                <i class="fas fa-image fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-stamp fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-print fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-cube fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          </ul>
+
+         
+
+          <ul class="sidebar-mobile">
+            <li>
+                <a href="#">
+                  <i class="fas fa-heart fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fas fa-door-open fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+          </ul>
+      <!-- sidebar-mobile -->
+    </div>
+    <!-- sidebar -->
+
+<main>
+    <div class="container-fluid px-5">
+        <div class="row px-3 pt-1 justify-content-between align-items-center">
+            <h5 class="text-uppercase text-myRed font-weight-bold m-0 mb-2">MY ARTWORKS</h5>
+            <div class="artworks-nav">
+                 <a href="#" class="font-weight-bold mb-2">Pukkart</a>
+                 <img src="img/Arrow-right.png" alt="right" class="mx-3 mb-2">
+                 <a href="#" class="mr-5 mb-2">My Artworks</a>
+                 <button type="button" class="btn btn-light cart">
+                   <span class="btn-badge">0</span>
+                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                   <span class="font-weight-bold ml-2">My Cart</span>
+                 </button>
+            </div>
+         </div>
+ 
+         <hr class="mt-1 mb-4">
+
+         <div class="row align-items-center mb-3">
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_checked">
+                    <ul>
+                        <li>01</li>
+                        <li><img src="img/Arrow-small-right.png" alt="arrow"></li>
+                        <li>Las Meninas</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_active">
+                    <ul>
+                        <li>02</li>
+                        <li><img src="img/Arrow-small-right.png" alt="arrow"></li>
+                        <li>Select certificate</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_next">
+                    <ul>
+                        <li>03</li>
+                        <li><img src="img/Arrow-grey-right.png" alt="arrow"></li>
+                        <li>Check cart</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_end">
+                    <ul>
+                        <li>04</li>
+                        <li><img src="img/Arrow-grey-right.png" alt="arrow"></li>
+                        <li>Purchase confirmed</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+         </div>
+         <!-- row justify-content-between -->
+         
+         <div class="row">
+             <div class="col-xl-3 col-lg-12">
+                 <div class="severalsArtwork">
+                     <h4>ARTWORK</h4>
+                     <div class="severalsArtwork__block">
+                         <img src="img/Frame.png" alt="privateData">
+                         <h5>La Virgen de las rocas</h5>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum et erat non aliquam. </p>
+                         <span>Editions: 20 - My Editions: 10</span>
+                     </div>
+                     <!-- /.severalsArtwork__block -->
+                 </div>
+                 <!-- /.severalsArtwork -->
+                 <div class="severalsPlans">
+                     <button class="severalsPlans__button severalsPlans__basic btnFree">
+                        <p class="plus">
+                          <i id="plusFree" class="fas fa-plus"></i>
+                          <i class="fas fa-minus"></i><small>FREE</small>
+                        </p>
+                       
+                     </button>
+                     <div class="severalsPlans__content jsContent">
+                        <div class="certificat__item--body__stars">
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                        </div>
+                        <ul>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                          <li><i class="fas fa-times"></i>Register artwork on blockchain.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                        </ul>
+                     </div>
+                     <!-- /.severalsPlans__basic--content -->
+                 </div>
+                 <!-- /.severalsPlans -->
+                 <div class="severalsPlans">
+                    <button class="severalsPlans__button severalsPlans__basic btnBasic">
+                        <p class="plus"><i id="plusBasic" class="fas fa-plus"></i><i class="fas fa-minus"></i><small>Basic</small></p>
+                        <p>1,90 <span>€</span></p>
+                    </button>
+                    <div class="severalsPlans__content jsContent">
+                        <div class="certificat__item--body__stars">
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star-half-alt fa-2x half-star"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                        </div>
+                        <ul>
+                          <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                          <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                          <li><i class="fas fa-times"></i>Template customisation.</li>
+                        </ul>
+                    </div>
+                    <!-- /.severalsPlans__basic--content -->
+                </div>
+                <!-- /.severalsPlans -->
+                <div class="severalsPlans">
+                    <button class="severalsPlans__button severalsPlans__basic btnSilver">
+                        <p class="plus"><i id="plusSilver" class="fas fa-plus"></i><i class="fas fa-minus"></i><small>Silver</small></p>
+                        <p>12,90 <span>€</span></p>
+                    </button>
+                    <div class="severalsPlans__content jsContent">
+                        <div class="certificat__item--body__stars">
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star-half-alt fa-2x half-star"></i>
+                          <i class="fas fa-star fa-2x"></i>
+                        </div>
+                        <ul>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                            <li><i class="fas fa-times"></i>Template customisation.</li>
+                            <li><i class="fas fa-times"></i>Template customisation.</li>
+                        </ul>
+                    </div>
+                    <!-- /.severalsPlans__basic--content -->
+                </div>
+                <!-- /.severalsPlans -->
+                <div class="severalsPlans">
+                    <button class="severalsPlans__button--gold severalsPlans__gold btnGold">
+                        <p class="plus"><i id="plusGold" class="fas fa-plus"></i><i class="fas fa-minus"></i><small class="gold">Gold</small></p>
+                        <p>19,90 <span>€</span></p>
+                    </button>
+                    <div class="severalsPlans__content sertify-border-ac jsContent">
+                        <div class="certificat__item--body__stars">
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                          <i class="fas fa-star fa-2x red-star"></i>
+                        </div>
+                        <ul>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                            <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                        </ul>
+                    </div>
+                    <!-- /.severalsPlans__basic--content -->
+                </div>
+                <!-- /.severalsPlans -->
+             </div>
+             <!-- /.col-md-4 col-sm-12 -->
+             <div class="col-xl-9 col-lg-12">
+               <div class="batch">
+                <h4>CERTIFY BATCH</h4>
+                <div class="batch__block">
+                  <img src="img/batch-img.png" alt="batch">
+                  <div class="batch__block--content">
+                    <p>Template</p>
+                    <div class="batch__block--content__select">
+
+                      <div class="__select login__select batch__block__select mr-2 mb-2" data-state="">
+                        <div class="__select__title login__select--title privateData__title" data-default="Option 0">Square 1</div>
+                        <div class="__select__content login__select--content privateData__content">
+                          <input id="singleSelect17122" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect17122" class="__select__label">Square 1</label>
+                          <input id="singleSelect17123" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect17123" class="__select__label">Square 1</label>
+                          <input id="singleSelect17024" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect17024" class="__select__label">Square 2</label>
+                        </div>
+                      </div>
+
+                      <div class="privateData__block--content__select--search">
+                        <i class="fas fa-search fa-lg"></i>
+                      </div>
+
+                    </div>
+                    <!-- batch__block--content__select -->
+
+                  </div>
+                  <!-- batch__block--content -->
+                  <div class="batch__block--content">
+                    <p>Editions to certify</p>
+                    <input class="batch__block--input160" type="text" placeholder="Ej. 1-5, 8, 11-13 ">
+                   </div>
+                  <!-- /.batch__block--content -->
+                  <div class="batch__block--content">
+                    <p>Plan</p>
+                    <div class="batch__block--content__select">
+
+                      <div class="__select login__select batch__block__select110 mr-2 mb-2" data-state="">
+                        <div class="__select__title login__select--title privateData__title" data-default="Option 0">Gold</div>
+                        <div class="__select__content login__select--content privateData__content">
+                          <input id="singleSelect11272" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect11272" class="__select__label">Gold</label>
+                          <input id="singleSelect11273" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect11273" class="__select__label">Gold</label>
+                          <input id="singleSelect102374" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect102374" class="__select__label">Silver</label>
+                          <input id="singleSelect10274" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect10274" class="__select__label">Basic</label>
+                          <input id="singleSelect102746" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect102746" class="__select__label">Free</label>
+                          <input id="singleSelect102745" class="__select__input" type="radio" name="singleSelect" />
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- batch__block--content__select -->
+                  </div>
+                  <!-- batch__block--content -->
+
+                    <div class="batch__block--content">
+                      <p>Owner</p>
+                      <div class="batch__block--content__select">
+  
+                        <div class="__select login__select batch__block__select180 mr-2 mb-2" data-state="">
+                          <div class="__select__title login__select--title privateData__title" data-default="Option 0">Select collector ...</div>
+                          <div class="__select__content login__select--content privateData__content">
+                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                            <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                            <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                          </div>
+                        </div>
+  
+                        <div class="privateData__block--content__select--search">
+                          <i class="fas fa-search fa-lg"></i>
+                        </div>
+  
+                      </div>
+                      <!-- batch__block--content__select -->
+  
+                    </div>
+                    <!-- batch__block--content -->
+
+                    <div class="batch__block--content">
+                      <p>Price</p>
+                      <div class="batch__block--content__select">
+                        <input class="batch__block--input mr-2 mb-2" type="text" placeholder="1000000,00 €">
+                        <button>Apply</button>
+                      </div>
+                      
+                     </div>
+                    <!-- /.batch__block--content -->
+
+                  </div>
+                  <!-- batch__block--content -->
+                </div>
+                <!-- /.batch__block -->
+
+
+                <!-- Editions -->
+                <div class="editions">
+                  <h4>CERTIFY EDITIONS</h4>
+                  <div class="editions__block">
+                    <div class="editions__block--left">
+                      <input type="text" placeholder="Edition ..." class="mr-2 mb-2 editions__block-194">
+
+
+                      <div class="__select login__select editions__block-165 mr-2 mb-2" data-state="">
+                        <div class="__select__title login__select--title editions__block-radius black-color" data-default="Option 0">Category</div>
+                        <div class="__select__content login__select--content privateData__content">
+                          <input id="singleSelect18922" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect18922" class="__select__label">Category</label>
+                          <input id="singleSelect18923" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect18923" class="__select__label">Category</label>
+                          <input id="singleSelect18824" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect18824" class="__select__label">Square 2</label>
+                        </div>
+                      </div>
+
+                      <div class="privateData__block--content__select--search editions__block-radius mr-2 mb-2">
+                        <i class="fas fa-search fa-lg"></i>
+                      </div>
+
+                      <div class="privateData__block--content__select--search editions__block-radius font-weight-bold mr-2 mb-2">
+                        Clear filter
+                      </div>
+
+                    </div>
+                    <!-- /.editions__block--left -->
+                    <div class="editions__block--right">
+                      <div class="privateData__block--content__select--search editions__block-radius font-weight-bold">
+                        Clear certificates
+                      </div>
+                    </div>
+                    <!-- /.editions__block--right -->
+                  </div>
+                  <!-- /.editions__block -->
+
+                  <div class="editions__table">
+                    <section>
+                      <div class="row m-0 pt-4 pr-4 pb-0 pl-4 page-bg">
+                          <div class="table-responsive text-nowrap">
+          
+                              <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col" class="text-center">Edition</th>
+                                    <th scope="col" class="text-center">None</th>
+                                    <th scope="col" class="text-center">Free</th>
+                                    <th scope="col" class="text-center">Basic</th>
+                                    <th scope="col" class="text-center">Silver</th>
+                                    <th scope="col" class="text-center">Gold</th>
+                                    <th scope="col" class="text-center">Template</th>
+                                    <th scope="col" class="text-center">Owner</th>
+                                    <th scope="col" class="text-center">Sale Price</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row" class="th-text">1</th>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample13" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample13"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample23" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample23"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample33" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample33"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample43" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample43"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample53" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample53"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="batch__block--content__select table-select">
+  
+                                      <div class="__select login__select table-block190" data-state="">
+                                        <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                        <div class="__select__content login__select--content table__content">
+                                          <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                          <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                          <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                        </div>
+                                      </div>
+                
+                                      <div class="privateData__block--content__select--search table-search">
+                                        <i class="fas fa-search fa-lg"></i>
+                                      </div>
+                
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="batch__block--content__select table-select">
+  
+                                      <div class="__select login__select table-block190" data-state="">
+                                        <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                        <div class="__select__content login__select--content table__content">
+                                          <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                          <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                          <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                        </div>
+                                      </div>
+                
+                                      <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                        New
+                                      </div>
+                
+                                      </div>
+                                    </td>                                    
+                                    <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                   
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="th-text">2</th>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample31" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample31"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample32" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample32"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample3113" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample3113"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample34" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample34"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="custom-control custom-radio radio-editions">
+                                        <input type="radio" class="custom-control-input" id="defaultGroupExample35" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="defaultGroupExample35"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="batch__block--content__select table-select">
+  
+                                      <div class="__select login__select table-block190" data-state="">
+                                        <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                        <div class="__select__content login__select--content table__content">
+                                          <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                          <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                          <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                        </div>
+                                      </div>
+                
+                                      <div class="privateData__block--content__select--search table-search">
+                                        <i class="fas fa-search fa-lg"></i>
+                                      </div>
+                
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="batch__block--content__select table-select">
+  
+                                      <div class="__select login__select table-block190" data-state="">
+                                        <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                        <div class="__select__content login__select--content table__content">
+                                          <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                          <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                          <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                          <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                        </div>
+                                      </div>
+                
+                                      <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                        New
+                                      </div>
+                
+                                      </div>
+                                    </td>
+                                    <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                   
+                                  </tr>
+                                  <tr>
+                                    <th scope="row" class="th-text">3</th>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample311" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample311"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample322" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample322"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample333" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample333"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample344" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample344"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample355" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample355"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search">
+                                          <i class="fas fa-search fa-lg"></i>
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                          New
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      <th scope="row" class="th-text">4</th>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample113" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample113"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample223" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample223"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample323" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample323"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample44s3" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample44s3"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample553" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample553"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search">
+                                          <i class="fas fa-search fa-lg"></i>
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                          New
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      <th scope="row" class="th-text">5</th>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample663" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample663"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample773" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample773"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample883" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample883"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample993" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample993"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample893" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample893"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search">
+                                          <i class="fas fa-search fa-lg"></i>
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                          New
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      <th scope="row" class="th-text">6</th>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample983" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample983"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample9893" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample9893"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample7893" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample7893"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample6783" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample6783"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="custom-control custom-radio radio-editions">
+                                          <input type="radio" class="custom-control-input" id="defaultGroupExample5673" name="groupOfDefaultRadios">
+                                          <label class="custom-control-label" for="defaultGroupExample5673"></label>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select template ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select template ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search">
+                                          <i class="fas fa-search fa-lg"></i>
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="batch__block--content__select table-select">
+    
+                                        <div class="__select login__select table-block190" data-state="">
+                                          <div class="__select__title login__select--title privateData__title table-title" data-default="Option 0">Select collector ...</div>
+                                          <div class="__select__content login__select--content table__content">
+                                            <input id="singleSelect18122" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18122" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18123" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18123" class="__select__label">Select collector ...</label>
+                                            <input id="singleSelect18024" class="__select__input" type="radio" name="singleSelect" />
+                                            <label for="singleSelect18024" class="__select__label">Square 2</label>
+                                          </div>
+                                        </div>
+                  
+                                        <div class="privateData__block--content__select--search table-search font-weight-bold">
+                                          New
+                                        </div>
+                  
+                                        </div>
+                                      </td>
+                                      <td><input type="text" class="table-input" placeholder="0,00 €"></td>
+                                    
+                                    </tr>
+                                </tbody>
+                              </table>
+                            
+                            </div>
+                      </div>
+                  </section>
+                  </div>
+                  <!-- /.editions__table -->
+                </div>
+                <!-- /.editions -->
+               
+
+                <div class="row justify-content-between m-0 pb-2">
+       
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination pg-white font-weight-bold">
+                      <li class="page-item">
+                        <a class="page-link" aria-label="Previous">
+                          <span aria-hidden="true">
+                            <img src="img/Left_arrow.png" alt="Left_arrow">
+                          </span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link">1</a></li>
+                      <li class="page-item"><a class="page-link">...</a></li>
+                      <li class="page-item"><a class="page-link">3</a></li>
+                      <li class="page-item"><a class="page-link">4</a></li>
+                      <li class="page-item active"><a class="page-link">5</a></li>
+                      <li class="page-item"><a class="page-link">6</a></li>
+                      <li class="page-item"><a class="page-link">7</a></li>
+                      <li class="page-item"><a class="page-link">...</a></li>
+                      <li class="page-item"><a class="page-link">10</a></li>
+                      <li class="page-item">
+                        <a class="page-link" aria-label="Next">
+                          <span aria-hidden="true">
+                            <img src="img/Right_arrow.PNG" alt="Right_arrow">
+                          </span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                
+                  <div class="pagination-items">
+                    <small class="mr-5">Rows per page: <span class="font-weight-bold">7</span>
+                      <a href=""><img src="img/Arrow-down.png" alt="Arrow" class="ml-2 pag-arrow"></a><span>
+          
+                      </span>
+                    </small>
+                    <small>Showing <span class="font-weight-bold">1 to 7 </span>of 700</small>
+                  </div>
+              </div>
+              <!-- Pagination -->
+               </div>
+               <!-- /.batch -->
+             </div>
+             <!-- /.col-md-8 col-sm-12 -->
+         </div>
+         <!-- /.row -->
+         <hr class="mx-5 mt-0 mb-0">
+
+         <div class="buttons-group px-5">
+          <button class="button-grey mb-2">Cancel</button>
+           <button class="button-red"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart (70,50 €)</button>
+         </div>
+         <!-- /.buttons-group -->
+</main>
+<!-- main -->
+
+
+
+
+ 
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/accordJq.js"></script>
+  
+ 
+
+</body>
+</html>

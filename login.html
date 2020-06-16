@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+    <div class="login">
+        <img src="img/Pukkart.png" class="login__logo" alt="Pukkart" aria-hidden="true">
+        <div class="login__content">
+            <form action="/" class="login__content--form">
+                <h3>Iniciar sesión</h3>
+                <label>
+                    <input type="email" placeholder="Intruduzca su correo electrónico ...">
+                </label>
+                <label>
+                    <input type="password" class="input-password" placeholder="Introduzca su contraseña ...">
+                    <i class="fas fa-eye-slash pass-btn"></i>
+                </label>
+                <div class="login__content--form--buttons">
+                    <a href="#">Crear cuenta</a>
+                    <button class="login__content--form--buttons__btn" type="button">ENTRAR</button>
+                </div>
+            </form>
+            <!-- form -->
+            <p>O</p>
+            <button type="button"><i class="fab fa-google"></i>Acceder con Google</button>
+            <button type="button"><i class="fab fa-facebook-f"></i>Acceder con Facebook</button>
+            <button type="button"><i class="fab fa-instagram"></i>Acceder con Instagram</button>
+            <a href="#" class="login__content--a">¿No puedes acceder?</a>
+        </div>
+        <!-- /.login-content -->
+        <div class="login__footer">
+            <div class="login__footer--select">
+                <select>
+                    <option value="1">Español</option>
+                    <option value="2">English</option>
+                </select>
+            </div>
+            <div class="login__footer--text">
+                <a href="#">Ayuda</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Condiciones</a>
+            </div>
+        </div>
+    </div>
+    <!-- login -->
+    
+
+    <script src="js/login.js"></script>
+</body>
+</html>

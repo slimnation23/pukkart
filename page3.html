@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pukkart</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+
+  <!--Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top top-header align-items-center">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand ml-2" href="#">
+        <img src="img/logo.png" alt="logo" class="logo-desctop">
+        <img src="img/Pukkar.png" alt="logo" class="logo-mobile">
+    </a>
+
+    <div class="brand-line"></div>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <img src="img/menu_icon.png" alt="menu_icon">
+      </span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse white-text mr-2" id="basicExampleNav">
+
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Spanish</a>
+            <div class="dropdown-menu dropdown-lang" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>English</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>French</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>German</a>
+            </div>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Faqs</a>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown ml-sm-0 ml-lg-2">
+          
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="img/user.png" class="nav-link" alt="">Álvaro
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fa fa-user fa-lg ml-1 mr-3" aria-hidden="true"></i>My Profile</a>
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fas fa-door-open fa-lg mr-2"></i>Log Out</a>
+            </div>
+        </li>
+  
+  
+      </ul>
+      <!-- Links -->
+      </div>
+  </nav>
+  <!--/.Navbar-->
+</header>
+
+<div class="sidebar position-fixed">
+    <ul class="sidebar-desctop">
+      <li>
+          <a href="#">
+              <img src="img/user.png" alt="user"><span class="ml-4">Álvaro Fernández</span>
+          </a>
+      </li>
+      <li>
+          <a href="#" class="menu-active">
+            <i class="fas fa-image fa-lg"></i><span class="ml-4">My Artworks</span> 
+          </a>
+      </li>
+      <li>
+          <a href="#">
+            <i class="fas fa-stamp fa-lg"></i><span class="ml-4">My Certificates</span> 
+          </a>
+      </li>
+      <li>
+          <a href="#">
+            <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4">Sold Artworks</span> 
+          </a>
+      </li>
+      <li>
+          <a href="#">
+            <i class="fas fa-print fa-lg"></i><span class="ml-4">2D FineArt Prints</span> 
+          </a>
+      </li>
+      <li>
+          <a href="#">
+            <i class="fas fa-cube fa-lg"></i><span class="ml-4">3D Quality Prints</span> 
+          </a>
+      </li>
+    </ul>
+
+    <hr class="sidebar-desctop">
+
+    <ul class="sidebar-desctop">
+      <li>
+          <a href="#">
+            <i class="fas fa-heart fa-lg"></i><span class="ml-4">My Collectors</span> 
+          </a>
+      </li>
+      <li>
+          <a href="#">
+            <i class="fas fa-door-open fa-lg"></i><span class="ml-4">Log Out</span> 
+          </a>
+      </li>
+    </ul>
+
+<!-- sidebar-mobile -->
+<ul class="sidebar-mobile">
+  <li>
+      <a href="#">
+          <img src="img/user.png" alt="user"><span class="ml-4"></span>
+      </a>
+  </li>
+  <li>
+      <a href="#" class="menu-active">
+        <i class="fas fa-image fa-lg"></i><span class="ml-4"></span> 
+      </a>
+  </li>
+  <li>
+      <a href="#">
+        <i class="fas fa-stamp fa-lg"></i><span class="ml-4"></span> 
+      </a>
+  </li>
+  <li>
+      <a href="#">
+        <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4"></span> 
+      </a>
+  </li>
+  <li>
+      <a href="#">
+        <i class="fas fa-print fa-lg"></i><span class="ml-4"></span> 
+      </a>
+  </li>
+  <li>
+      <a href="#">
+        <i class="fas fa-cube fa-lg"></i><span class="ml-4"></span> 
+      </a>
+  </li>
+  </ul>
+
+ 
+
+  <ul class="sidebar-mobile">
+    <li>
+        <a href="#">
+          <i class="fas fa-heart fa-lg"></i><span class="ml-4"></span> 
+        </a>
+    </li>
+    <li>
+        <a href="#">
+          <i class="fas fa-door-open fa-lg"></i><span class="ml-4"></span> 
+        </a>
+    </li>
+  </ul>
+<!-- sidebar-mobile -->
+</div>
+<!-- sidebar -->
+
+    <main>
+        <div class="container-fluid px-5">
+            <div class="row px-3 pt-1 justify-content-between align-items-center">
+               <h5 class="text-uppercase text-myRed font-weight-bold m-0 mb-2">MY ARTWORKS</h5>
+               <div class="artworks-nav">
+                    <a href="#" class="font-weight-bold mb-2">Pukkart</a>
+                    <img src="img/Arrow-right.png" alt="right" class="mx-3 mb-2">
+                    <a href="#" class="mr-5 mb-2">My Artworks</a>
+                    <button type="button" class="btn btn-light cart">
+                      <span class="btn-badge">0</span>
+                      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      <span class="font-weight-bold ml-2">My Cart</span>
+                    </button>
+               </div>
+            </div>
+
+        <hr class="mt-1 mb-4">
+
+        <section class="pb-4 page-bg mt-4 mb-4">
+            <div class="row m-0 p-4">
+                <div class="col">
+                    <h5 class="font-weight-bold text-uppercase">PERSONAL INFO</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <div class="row m-0 pl-4 pr-4">
+                <div class="col-md-6 col-sm-12">
+                    <form>
+                        <!-- Default input name -->
+                        <label for="defaultFormCardNameEx" class="font-weight-bold">Full name</label>
+                        <input type="text" id="defaultFormCardNameEx" class="form-control mb-4" placeholder="Insert your full name ...">
+                        <!-- Default input Selected -->
+                        <label for="defaultFormCardNameEx2" class="font-weight-bold">Selected input *</label>
+                        <input type="text" id="defaultFormCardNameEx2" class="form-control mb-4" placeholder="Name Surname">
+                        <!-- Select -->
+                        <label class="font-weight-bold">List</label>
+                        <div class="__select form-control mr-2 mb-2 w-100" data-state="">
+                            <div class="__select__title form-title" data-default="Option 0">Select option ...</div>
+                            <div class="__select__content form-content">
+                              <input id="singleSelect0032" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect0032" class="__select__label">Select option ...</label>
+                              <input id="singleSelect0032" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect0032" class="__select__label">Select option ...</label>
+                              <input id="singleSelect1132" class="__select__input" type="radio" name="singleSelect" />
+                              <label for="singleSelect1132" class="__select__label">Select option ...</label>
+                            </div>
+                        </div>
+                        <!-- row -->
+                        <div class="row mt-4 checklist justify-content-between px-3">
+                            <div class="pb-4">
+                                <label class="pb-3 font-weight-bold">Checklist</label>
+                                <!-- Default checked -->
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                    <label class="custom-control-label" for="defaultUnchecked">Lorem ipsum dolor et amet</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                                    <label class="custom-control-label" for="defaultUnchecked2">Lorem ipsum dolor et amet</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                                    <label class="custom-control-label" for="defaultUnchecked3">Lorem ipsum dolor et amet</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                                    <label class="custom-control-label" for="defaultUnchecked4">Lorem ipsum dolor et amet</label>
+                                </div>
+                            </div>
+
+                            <div class="pb-4">
+                                <label class="pb-3 font-weight-bold">Radio buttons</label>
+                                <!-- Group of default radios - option 1 -->
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
+                                    <label class="custom-control-label" for="defaultGroupExample1">Lorem ipsum dolor et amet</label>
+                                </div>
+                                
+                                <!-- Group of default radios - option 2 -->
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
+                                    <label class="custom-control-label" for="defaultGroupExample2">Lorem ipsum dolor et amet</label>
+                                </div>
+                                
+                                <!-- Group of default radios - option 3 -->
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="defaultGroupExample3" name="groupOfDefaultRadios">
+                                    <label class="custom-control-label" for="defaultGroupExample3">Lorem ipsum dolor et amet</label>
+                                </div>
+
+                                <!-- Group of default radios - option 3 -->
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" class="custom-control-input" id="defaultGroupExample4" name="groupOfDefaultRadios">
+                                    <label class="custom-control-label" for="defaultGroupExample4">Lorem ipsum dolor et amet</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.col-md-6 -->
+                <div class="col-md-6 col-sm-12">
+                    <!-- Default input name -->
+                    <label for="defaultFormCardNameEx3" class="font-weight-bold">Input</label>
+                    <input type="text" id="defaultFormCardNameEx3" class="form-control mb-4" placeholder="Action description ...">
+                    <!-- Default input name -->
+                    <label for="defaultFormCardNameEx4" class="font-weight-bold wrong-label">Wrong input</label>
+                    <input type="text" id="defaultFormCardNameEx4" class="form-control mb-4 wrong-input" placeholder="Error description">
+
+                    <label class="font-weight-bold">File browse</label>
+                    <div class="custom-file mb-4">
+                        <input type="file" class="custom-file-input" id="customFileLang">
+                        <label class="custom-file-label" for="customFileLang">Choose file</label>
+                    </div>
+                    <!-- Default input name -->
+                    <label for="defaultFormCardNameEx5" class="font-weight-bold">Disabled input</label>
+                    <input type="text" id="defaultFormCardNameEx5" class="form-control mb-4" placeholder="Disabled input" disabled>
+                    <!-- Default input name -->
+                    <label for="defaultFormCardNameEx6" class="font-weight-bold">Input with info</label>
+                    <input type="text" id="defaultFormCardNameEx6" class="form-control" placeholder="Action description ...">
+                    <small class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </small>
+                </div>
+                <!-- /.col-md-6 col-sm-12 -->
+            </div>
+            <!-- row -->
+            <div class="row m-0 p-4">
+                <div class="col">
+                    <h5 class="font-weight-bold text-uppercase">TITLE INFO</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <!-- row -->
+            <div class="row m-0 pl-4 pr-4">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="font-weight-bold mb-2">Text box</label>
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="9"></textarea>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">I agree with the <span class="font-weight-bold">Terms of service.</span></label>
+                    </div>
+                </div>
+                <!-- col -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="row file-upload">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="d-flex flex-column">
+                                <p class="font-weight-bold m-0 mb-2">Edit picture</p>
+                                <img src="img/page_3/Pic_user.png" class="form-img" alt="Pic_user">
+                                <div class="d-flex mt-2">
+                                    <a href="">
+                                        <i class="fas fa-pen text-black-50"><span class="ml-2">Edit</span></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="far fa-trash-alt ml-4 text-black-50"><span class="ml-2">Delete</span></i>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- col -->
+                        <div class="col-md-6 clo-sm-12">
+                            <div class="d-flex flex-column">
+                                <p class="font-weight-bold m-0 mb-2">Upload picture</p>
+                                <input name="myFile" type="file">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row m-0 pl-4 pr-4 pb-4">
+                <button type="button" class="btn btn-form-green font-weight-bold text-capitalize">Save</button>
+                <button type="button" class="btn btn-form-grey font-weight-bold text-capitalize">Cancel</button>
+            </div>
+
+            <!-- Success -->
+            <div class="row m-0 pl-4 pr-4">
+                <div class="col p-0">
+                    <div class="alert alert-success alert-dismissible">
+                        <i class="fas fa-check-circle"></i>
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <span class="ml-3">Green message. Lorem ipsum dolor sit amet, consectetur adipisci</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="row m-0 pl-4 pr-4">
+                <div class="col p-0">
+                    <div class="alert alert-info alert-dismissible">
+                        <i class="fas fa-info-circle"></i>
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <span class="ml-3">Info message. Lorem ipsum dolor sit amet, consectetur adipisci</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Error -->
+            <div class="row m-0 pl-4 pr-4">
+                <div class="col p-0">
+                    <div class="alert alert-danger alert-dismissible">
+                        <i class="fas fa-times-circle"></i>
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                        <span class="ml-3">Error message. Lorem ipsum dolor sit amet, consectetur adipisci</span>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+   
+
+    </div>
+</main>
+<!-- main -->
+
+
+ 
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

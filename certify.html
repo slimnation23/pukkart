@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pukkart</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    <!-- Your custom styles (optional) -->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+
+  <!--Navbar-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top top-header align-items-center">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand ml-2" href="#">
+        <img src="img/logo.png" alt="logo" class="logo-desctop">
+        <img src="img/Pukkar.png" alt="logo" class="logo-mobile">
+    </a>
+
+    <div class="brand-line"></div>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <img src="img/menu_icon.png" alt="menu_icon">
+      </span>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse white-text mr-2" id="basicExampleNav">
+
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Spanish</a>
+            <div class="dropdown-menu dropdown-lang" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>English</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>French</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-globe fa-lg mr-2" aria-hidden="true"></i>German</a>
+            </div>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Faqs</a>
+        </li>
+        <li class="nav-item ml-sm-0 ml-lg-2">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown ml-sm-0 ml-lg-2">
+          
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="img/user.png" class="nav-link" alt="">Álvaro
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fa fa-user fa-lg ml-1 mr-3" aria-hidden="true"></i>My Profile</a>
+              <a class="dropdown-item font-weight-bold" href="#">
+                <i class="fas fa-door-open fa-lg mr-2"></i>Log Out</a>
+            </div>
+        </li>
+  
+  
+      </ul>
+      <!-- Links -->
+      </div>
+  </nav>
+  <!--/.Navbar-->
+</header>
+
+    <div class="sidebar position-fixed">
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                      <img src="img/user.png" alt="user"><span class="ml-4">Álvaro Fernández</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-image fa-lg"></i><span class="ml-4">My Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-stamp fa-lg"></i><span class="ml-4">My Certificates</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4">Sold Artworks</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-print fa-lg"></i><span class="ml-4">2D FineArt Prints</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-cube fa-lg"></i><span class="ml-4">3D Quality Prints</span> 
+                  </a>
+              </li>
+            </ul>
+
+            <hr class="sidebar-desctop">
+
+            <ul class="sidebar-desctop">
+              <li>
+                  <a href="#">
+                    <i class="fas fa-heart fa-lg"></i><span class="ml-4">My Collectors</span> 
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="fas fa-door-open fa-lg"></i><span class="ml-4">Log Out</span> 
+                  </a>
+              </li>
+            </ul>
+
+        <!-- sidebar-mobile -->
+        <ul class="sidebar-mobile">
+          <li>
+              <a href="#">
+                  <img src="img/user.png" alt="user"><span class="ml-4"></span>
+              </a>
+          </li>
+          <li>
+              <a href="#" class="menu-active">
+                <i class="fas fa-image fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-stamp fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-dollar-sign fa-lg pl-1"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-print fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                <i class="fas fa-cube fa-lg"></i><span class="ml-4"></span> 
+              </a>
+          </li>
+          </ul>
+
+        
+
+          <ul class="sidebar-mobile">
+            <li>
+                <a href="#">
+                  <i class="fas fa-heart fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fas fa-door-open fa-lg"></i><span class="ml-4"></span> 
+                </a>
+            </li>
+          </ul>
+      <!-- sidebar-mobile -->
+    </div>
+    <!-- sidebar -->
+
+<main>
+    <div class="container-fluid px-5">
+        <div class="row px-3 pt-1 justify-content-between align-items-center">
+            <h5 class="text-uppercase text-myRed font-weight-bold m-0 mb-2">MY ARTWORKS</h5>
+            <div class="artworks-nav">
+                 <a href="#" class="font-weight-bold mb-2">Pukkart</a>
+                 <img src="img/Arrow-right.png" alt="right" class="mx-3 mb-2">
+                 <a href="#" class="mr-5 mb-2">My Artworks</a>
+                 <button type="button" class="btn btn-light cart">
+                   <span class="btn-badge">0</span>
+                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                   <span class="font-weight-bold ml-2">My Cart</span>
+                 </button>
+            </div>
+         </div>
+ 
+         <hr class="mt-1 mb-4">
+
+         <div class="row align-items-center mb-3">
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_checked">
+                    <ul>
+                        <li>01</li>
+                        <li><img src="img/Arrow-small-right.png" alt="arrow"></li>
+                        <li>Las Meninas</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_active">
+                    <ul>
+                        <li>02</li>
+                        <li><img src="img/Arrow-small-right.png" alt="arrow"></li>
+                        <li>Select certificate</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_next">
+                    <ul>
+                        <li>03</li>
+                        <li><img src="img/Arrow-grey-right.png" alt="arrow"></li>
+                        <li>Check cart</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+             <div class="col-lg-3 col-md-4 col-sm-12 mb-2">
+                <div class="choose-item_end">
+                    <ul>
+                        <li>04</li>
+                        <li><img src="img/Arrow-grey-right.png" alt="arrow"></li>
+                        <li>Purchase confirmed</li>
+                    </ul>
+                </div>
+             </div>
+             <!-- /.col-lg-4 col-md-6 col-sm-12 -->
+         </div>
+         <!-- row justify-content-between -->
+         
+          <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-12">
+               <div class="privateData">
+                 <h4>ARTWORK</h4>
+                 <div class="privateData__block">
+                   <img src="img/privateData-img.png" alt="privateData">
+                   <div class="privateData__block--content">
+                     <p>Las Meninas</p>
+                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum et erat non aliquam.</small>
+                     <b>Original Artwork</b>
+                   </div>
+                 </div>
+               </div>
+            </div>
+             
+            <div class="col-xl-4 col-lg-6 col-md-12">
+              <div class="privateData">
+                <h4>TEMPLATE</h4>
+                <div class="privateData__block">
+                  <img src="img/TEMPLATE-img.png" alt="TEMPLATE">
+                  <div class="privateData__block--content">
+                    <p>Select design</p>
+                    <div class="privateData__block--content__select">
+                      <div class="__select privateData__select mr-2 mb-2" data-state="">
+                        <div class="__select__title login__select--title privateData__title" data-default="Option 0">Square 1</div>
+                        <div class="__select__content login__select--content privateData__content">
+                          <input id="singleSelect11022" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect11022" class="__select__label">Square 1</label>
+                          <input id="singleSelect11203" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect11203" class="__select__label">Square 1</label>
+                          <input id="singleSelect10204" class="__select__input" type="radio" name="singleSelect" />
+                          <label for="singleSelect10204" class="__select__label">Square 2</label>
+                        </div>
+                      </div>
+                      <div class="privateData__block--content__select--search">
+                        <i class="fas fa-search fa-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+            <div class="col-xl-3 col-lg-6 col-md-12">
+              <div class="privateData">
+                <h4>PRIVATE DATA</h4>
+                <div class="privateData__block">
+                  <div class="privateData__block--content">
+                    <p>Owner</p>
+                    <input type="text" placeholder="Álvaro Fernández (me)">
+                    <c>Note: You will be the owner of this new certificate</c>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         </div>
+         <!-- /.row -->
+
+
+         <!-- Sale Private data -->
+         <div class="row">
+         <div class="col-xl-4 col-lg-6 col-md-12">
+            <div class="privateData">
+              <h4>ARTWORK</h4>
+              <div class="privateData__block">
+                <img src="img/privateData-img.png" alt="privateData">
+                <div class="privateData__block--content">
+                  <p>Las Meninas</p>
+                  <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum et erat non aliquam.</small>
+                  <b>Original Artwork</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-6 col-md-12">
+           <div class="privateData">
+             <h4>TEMPLATE</h4>
+             <div class="privateData__block">
+               <img src="img/TEMPLATE-img.png" alt="TEMPLATE">
+               <div class="privateData__block--content">
+                 <p>Select design</p>
+                 <div class="privateData__block--content__select">
+                   <div class="__select privateData__select mr-2 mb-2" data-state="">
+                     <div class="__select__title login__select--title privateData__title" data-default="Option 0">Square 1</div>
+                     <div class="__select__content login__select--content privateData__content">
+                       <input id="singleSelect1122" class="__select__input" type="radio" name="singleSelect" />
+                       <label for="singleSelect1122" class="__select__label">Square 1</label>
+                       <input id="singleSelect1123" class="__select__input" type="radio" name="singleSelect" />
+                       <label for="singleSelect1123" class="__select__label">Square 1</label>
+                       <input id="singleSelect1024" class="__select__input" type="radio" name="singleSelect" />
+                       <label for="singleSelect1024" class="__select__label">Square 2</label>
+                     </div>
+                   </div>
+                   <div class="privateData__block--content__select--search">
+                     <i class="fas fa-search fa-lg"></i>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-6 col-md-12">
+           <div class="privateData">
+             <h4>Sale PRIVATE DATA</h4>
+             <div class="privateData__block sale__block">
+               <div class="privateData__block--content">
+                <p>Owner</p>
+                <div class="privateData__block--content__select">
+                 <div class="__select privateData__select mr-2 mb-2" data-state="">
+                  <div class="__select__title login__select--title privateData__title" data-default="Option 0">Select collector ...</div>
+                  <div class="__select__content login__select--content privateData__content">
+                    <input id="singleSelect11222" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect11222" class="__select__label">Select collector ...</label>
+                    <input id="singleSelect11223" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect11223" class="__select__label">Select collector ...</label>
+                    <input id="singleSelect10224" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect10224" class="__select__label">Square 2</label>
+                  </div>
+                </div>
+
+                <div class="privateData__block--content__select--search">
+                  <p class="m-0 sale_p">New collector</p>
+                </div>
+
+              </div>
+                <!-- __select -->
+               </div>
+               
+               <div class="privateData__block--content">
+                <p class="sale_p-input sale-fsz">Sale price</p>
+                <input class="sale_input" type="text" placeholder="1000000,00 €">
+               </div>
+             </div>
+           </div>
+          </div>
+      </div>
+      <!-- /.row -->
+      <!-- Sale Private Data -->
+
+
+
+         <div class="certificat">
+           <h4>SELECT CERTIFICATE</h4>
+           <div class="row">
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="certificat__item">
+                 <div class="certificat__item--header">
+                   <h5>FREE</h5>
+                   <p>Certificate of Authenticity</p>
+                 </div>
+                 <!-- certificates__item--header -->
+                 <div class="certificat__item--body">
+                   <div class="certificat__item--body__stars">
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                   </div>
+                   <ul>
+                     <li><i class="fas fa-times"></i>Template customisation.</li>
+                     <li><i class="fas fa-times"></i>Register artwork on blockchain.</li>
+                     <li><i class="fas fa-times"></i>Template customisation.</li>
+                     <li><i class="fas fa-times"></i>Template customisation.</li>
+                     <li><i class="fas fa-times"></i>Template customisation.</li>
+                   </ul>
+                   <div class="certificat__item--body__price vis-hiiden">
+                     <h3></h3>
+                   </div>
+                 </div>
+                 <!-- /.certificates__item--body -->
+                 <div class="certificat__item--button">
+                  <button><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                 </div>
+               </div>
+             </div>
+             <!-- /.col -->
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="certificat__item sertify-border">
+                <div class="certificat__item--header grey-header">
+                  <h5>Basic</h5>
+                  <p>Certificate of Authenticity</p>
+                </div>
+                <!-- certificates__item--header -->
+                <div class="certificat__item--body">
+                  <div class="certificat__item--body__stars">
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star-half-alt fa-2x half-star"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                   </div>
+                  <ul>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                    <li><i class="fas fa-times"></i>Template customisation.</li>
+                    <li><i class="fas fa-times"></i>Template customisation.</li>
+                    <li><i class="fas fa-times"></i>Template customisation.</li>
+                  </ul>
+                  <div class="certificat__item--body__price">
+                    <h3><span>1</span>.90 €</h3>
+                  </div>
+                </div>
+                <!-- /.certificates__item--body -->
+                <div class="certificat__item--button">
+                  <button class="button-red"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="certificat__item sertify-border">
+                <div class="certificat__item--header grey-header">
+                  <h5>Silver</h5>
+                  <p>Certificate of Authenticity</p>
+                </div>
+                <!-- certificates__item--header -->
+                <div class="certificat__item--body">
+                  <div class="certificat__item--body__stars">
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star-half-alt fa-2x half-star"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                   </div>
+                  <ul>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li><i class="fas fa-times"></i>Template customisation.</li>
+                    <li><i class="fas fa-times"></i>Template customisation.</li>
+                  </ul>
+                  <div class="certificat__item--body__price">
+                    <h3><span>12</span>.90 €</h3>
+                  </div>
+                </div>
+                <!-- /.certificates__item--body -->
+                <div class="certificat__item--button">
+                  <button class="button-red"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="certificat__item sertify-border">
+                <div class="certificat__item--header header-gold">
+                  <h5>Gold</h5>
+                  <p>Certificate of Authenticity</p>
+                </div>
+                <!-- certificates__item--header -->
+                <div class="certificat__item--body">
+                  <div class="certificat__item--body__stars">
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                    <i class="fas fa-star fa-2x red-star"></i>
+                   </div>
+                  <ul>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Register artwork on blockchain.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                    <li class="certificat-active"><i class="fas fa-check"></i>Template customisation.</li>
+                  </ul>
+                  <div class="certificat__item--body__price">
+                    <h3><span>19</span>.90 €</h3>
+                  </div>
+                </div>
+                <!-- /.certificates__item--body -->
+                <div class="certificat__item--button">
+                  <button class="button-red"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- /.col -->
+           </div>
+           <!-- /.row -->
+           <div class="no-sertificate">
+             <button>Save without certificate</button>
+             <span>Note: You could certificate this artwork later</span>
+           </div>
+           <!-- /.no-sertificate -->
+    </div>
+    </div>
+</main>
+<!-- main -->
+
+
+ 
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/accordJq.js"></script>
+  
+ 
+
+</body>
+</html>

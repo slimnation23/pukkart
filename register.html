@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+    <div class="login" id="register_1">
+        <img src="img/Pukkart.png" class="login__logo" alt="Pukkart" aria-hidden="true">
+        <div class="login__content">
+            <form action="/" class="login__content--form">
+                <h3>Regístrate en Pukkart</h3>
+                <label>
+                    <input type="text" placeholder="Introduzca su nombre ...">
+                </label>
+                <label>
+                    <input type="text" placeholder="Introduzca sus apellidos ...">
+                </label>
+                <label>
+                    <input type="email" placeholder="Introduzca el correo electrónico ...">
+                </label>
+                <div class="__select login__select mr-2 mb-2" data-state="">
+                    <div class="__select__title login__select--title" data-default="Option 0">Seleccione su perfil ...</div>
+                    <div class="__select__content login__select--content">
+                      <input id="singleSelect1102" class="__select__input" type="radio" name="singleSelect" />
+                      <label for="singleSelect1102" class="__select__label">Seleccione su perfil ...</label>
+                      <input id="singleSelect1102" class="__select__input" type="radio" name="singleSelect" />
+                      <label for="singleSelect1102" class="__select__label">Seleccione su perfil ...</label>
+                      <input id="singleSelect102" class="__select__input" type="radio" name="singleSelect" />
+                      <label for="singleSelect102" class="__select__label">Seleccione ...</label>
+                    </div>
+                </div>
+                <label>
+                    <input type="password" class="input-password" placeholder="Introduzca la contraseña ...">
+                    <i class="fas fa-eye-slash pass-btn"></i>
+                </label>
+                <label>
+                    <input type="password" class="input-password-repeat" placeholder="Repita la contraseña ...">
+                    <i class="fas fa-eye-slash pass-btn2"></i>
+                </label>
+                <div class="form__checkbox">
+                    <input type="checkbox" id="checkbox_1" class="form__checkbox--input">
+                    <label for="checkbox_1" class="form__checkbox--label"><span>He leído las <a href="#"><b class="black-color"> Condiciones Legales</b></a></span></label>
+                </div>
+                <div class="login__content--form--buttons">
+                    <button class="login__content--form--buttons__btn" type="button" id="entrar-btn">ENTRAR</button>
+                </div>
+                <div class="register__hr"></div>
+            </form>
+            <!-- form -->
+            <a href="#" class="login__content--a">¿Ya tienes cuenta? Inicia sesión</a>
+        </div>
+        <!-- /.login-content -->
+        <div class="login__footer">
+            <div class="login__footer--select">
+                <select>
+                    <option value="1">Español</option>
+                    <option value="2">English</option>
+                </select>
+            </div>
+            <div class="login__footer--text">
+                <a href="#">Ayuda</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Condiciones</a>
+            </div>
+        </div>
+    </div>
+    <!-- login -->
+
+    <div class="register" id="register_2">
+        <div class="register__logo">
+            <img src="img/Pukkart-logo.png" alt="Pukkart-logo.png" aria-hidden="true">
+            <p>genética del arte</p>
+        </div>
+        <div class="register__content">
+            <div class="register__content--form">
+                <h3>Regístrate en Pukkart</h3>
+                <label>
+                    <input type="text" placeholder="Introduzca su nombre">
+                </label>
+                <label>
+                    <input type="text" placeholder="Introduzca sus apellidos">
+                </label>
+                <label>
+                    <input type="email" placeholder="Introduzca el correo electrónico">
+                </label>
+                <label>
+                    <input type="password" placeholder="Introduzca la contraseña">
+                </label>
+                <div class="form__checkbox">
+                    <input type="checkbox" id="checkbox_2" class="form__checkbox--input">
+                    <label for="checkbox_2" class="form__checkbox--label font-size"><span>He leído las <a href="#"><b class="blue-color"> Condiciones Legales</b></a></span></label>
+                </div>
+                <div class="register__content--form--buttons">
+                    <button class="register__content--form--buttons__btn" type="button">ENVIAR</button>
+                </div>
+                <div class="register__hr2"></div>
+                <a href="#" class="register__content--form--a">¿Ya tienes cuenta? Inicia sesión</a>
+            </div>
+        </div>
+        <!-- /.register__content -->
+    </div>
+    <!-- /.register -->
+    
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
