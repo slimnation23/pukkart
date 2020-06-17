@@ -961,7 +961,7 @@ main {
   display: none;
 }
 
-@media (max-width: 1850px) {
+@media (max-width: 1260px) {
   .logo-mobile {
     display: block;
     margin-left: -5px;
