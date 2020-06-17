@@ -1989,6 +1989,20 @@ main {
   .privateData__block {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    max-height: none;
+  }
+  .privateData__select {
+    width: 100px !important;
+  }
+  .privateData__block--content__select {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sale_p-input {
+    margin-left: 0 !important;
+  }
+  .sale_input {
+    margin-left: 0 !important;
   }
 }
 
@@ -2657,12 +2671,6 @@ main {
 .half-star {
   color: #e82d4a !important;
   background-color: transparent;
-}
-
-@media (max-width: 350px) {
-  .privateData__select {
-    width: 100% !important;
-  }
 }
 
 .batch {
