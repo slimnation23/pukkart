@@ -1239,6 +1239,14 @@ main {
     font-size: 10px;
   }
 }
+@media (max-width:1650px) {
+  .batch__block--content p {
+    font-size: 10px !important;
+  }
+  .privateData__title {
+    font-size: 10px !important;
+  }
+}
 
 @media (min-width: 1565px) and (max-width:1669px) {
   .privateData__select {
@@ -1340,12 +1348,6 @@ main {
   }
   .form input {
     width: auto;
-  }
-}
-
-@media (min-width: 1311px) and (max-width: 1390px) {
-  .batch__block--content p {
-    font-size: 12px !important;
   }
 }
 
@@ -1970,7 +1972,8 @@ main {
         display: flex;
 
         button {
-          width: 97px;
+          padding-left: 15px;
+          padding-right: 15px;
           height: 50px;
           background-color: #e82d4a;
           border: none;
