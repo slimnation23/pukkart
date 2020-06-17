@@ -1932,7 +1932,8 @@ main {
 @media (min-width: 991px) and (max-width: 1564px) {
   .__select__title::before,
   .__select__title::after {
-    content: none !important;
+    height: 2px;
+    right: 5px;
   }
 }
 

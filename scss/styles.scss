@@ -1276,10 +1276,11 @@ main {
 @media (min-width: 991px) and (max-width:1564px) {
 
   .__select__title::before,
-  .__select__title::after {
-    content: none !important;
+    .__select__title::after {
+      height: 2px;
+      right: 5px;
+    }
   }
-}
 
 @media (min-width: 1201px) and (max-width:1564px) {
   .batch__block img {
