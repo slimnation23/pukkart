@@ -996,6 +996,10 @@ main {
   .form input {
     width: 160px;
   }
+  .batch__block--content__select {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .wrong-label {

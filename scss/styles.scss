@@ -467,6 +467,9 @@ main {
   .form input {
     width: 160px;
   }
+  .batch__block--content__select {
+    flex-wrap: wrap;
+  }
 }
 
 .wrong-label {
@@ -1239,10 +1242,12 @@ main {
     font-size: 10px;
   }
 }
+
 @media (max-width:1650px) {
   .batch__block--content p {
     font-size: 10px !important;
   }
+
   .privateData__title {
     font-size: 10px !important;
   }
@@ -1264,6 +1269,7 @@ main {
 }
 
 @media (min-width: 991px) and (max-width:1564px) {
+
   .__select__title::before,
   .__select__title::after {
     content: none !important;
@@ -1275,6 +1281,7 @@ main {
     width: 100px;
     height: 100px;
   }
+
   .privateData__block img {
     width: 120px;
   }
@@ -1325,6 +1332,7 @@ main {
     width: 140px !important;
     height: auto !important;
   }
+
   .privateData__title {
     font-size: 12px !important;
   }
@@ -1341,15 +1349,19 @@ main {
     flex-wrap: wrap;
     max-height: none;
   }
+
   .privateData__select {
     width: 100px !important;
   }
+
   .privateData__block--content__select {
     flex-wrap: wrap;
   }
+
   .sale_p-input {
     margin-left: 0 !important;
   }
+
   .sale_input {
     margin-left: 0 !important;
   }
@@ -1359,6 +1371,7 @@ main {
   .severalsPlans__content {
     align-items: center !important;
   }
+
   .form input {
     width: auto;
   }
