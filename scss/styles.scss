@@ -467,7 +467,12 @@ main {
   .form input {
     width: 160px;
   }
+
   .batch__block--content__select {
+    flex-wrap: wrap;
+  }
+
+  .artworks-nav {
     flex-wrap: wrap;
   }
 }

@@ -1000,6 +1000,10 @@ main {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .artworks-nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .wrong-label {
