@@ -2091,12 +2091,10 @@ main {
   &__block {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-bottom: 25px;
 
     &--left {
       display: flex;
-      flex-wrap: wrap;
 
       input {
         height: 50px;
