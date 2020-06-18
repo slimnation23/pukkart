@@ -1937,6 +1937,22 @@ main {
   .privateData__title {
     font-size: 10px !important;
   }
+  .batch__block--content input::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .batch__block--content input:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .batch__block--content input::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .batch__block--content input::placeholder {
+    font-size: 10px;
+  }
+  .__select[data-state="active"] .__select__label + .__select__input + .__select__label {
+    font-size: 10px;
+    padding: 0 5px !important;
+  }
 }
 
 @media (min-width: 1565px) and (max-width: 1669px) {
