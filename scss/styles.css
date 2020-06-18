@@ -98,6 +98,7 @@ table th {
 .table td,
 .table th {
   vertical-align: middle !important;
+  text-align: center;
 }
 
 .custom-file-label::after {
@@ -2124,6 +2125,12 @@ main {
   }
 }
 
+@media (min-width: 1260px) and (max-width: 1350px) {
+  .table-input {
+    width: 100% !important;
+  }
+}
+
 .certificat h4 {
   color: #e82d4a;
   font-weight: 700;
@@ -2943,7 +2950,7 @@ main {
 }
 
 .table-input {
-  width: 100% !important;
+  width: 127px;
   height: 40px !important;
   border-radius: 5px;
   border: 1px solid #e2e2e2;

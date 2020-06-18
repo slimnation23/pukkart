@@ -1458,6 +1458,12 @@ main {
   }
 }
 
+@media (min-width: 1260px) and (max-width:1350px) {
+  .table-input {
+    width: 100% !important;
+  }
+}
+
 .certificat {
   h4 {
     color: #e82d4a;
@@ -2157,7 +2163,7 @@ main {
 }
 
 .table-input {
-  width: 100% !important;
+  width: 127px;
   height: 40px !important;
   border-radius: 5px;
   border: 1px solid #e2e2e2;
