@@ -2037,7 +2037,6 @@ main {
 }
 
 .batch__block--input {
-  width: 120px !important;
   outline: none;
 }
 
@@ -2121,11 +2120,10 @@ main {
 
 .th-text {
   font-weight: 700;
-  padding-left: 33px !important;
+  padding-left: 2.5% !important;
 }
 
 .radio-editions {
-  margin-left: 35px;
   margin-top: -10px;
 }
 
@@ -2139,6 +2137,7 @@ main {
 
 .table-search {
   height: 40px !important;
+  margin-right: 10px;
 }
 
 .table-title {
@@ -2158,7 +2157,7 @@ main {
 }
 
 .table-input {
-  width: 124px !important;
+  width: 100% !important;
   height: 40px !important;
   border-radius: 5px;
   border: 1px solid #e2e2e2;
@@ -2169,3 +2168,4 @@ main {
   outline: none;
   font-size: 14px;
 }
+

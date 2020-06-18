@@ -347,6 +347,25 @@ a.btn:not([href]):not([tabindex]) {
   }
 }
 
+@media (min-width: 1260px) and (max-width: 2048px) {
+  .table-responsive {
+    overflow-x: inherit;
+  }
+  .table th, .table td {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1260px) and (max-width: 1600px) {
+  .table th, .table td {
+    font-size: 10px !important;
+  }
+  .batch__block--content__select button {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
 .__select {
   position: relative;
   width: 160px;
@@ -2793,7 +2812,6 @@ main {
 }
 
 .batch__block--input {
-  width: 120px !important;
   outline: none;
 }
 
@@ -2887,11 +2905,10 @@ main {
 
 .th-text {
   font-weight: 700;
-  padding-left: 33px !important;
+  padding-left: 2.5% !important;
 }
 
 .radio-editions {
-  margin-left: 35px;
   margin-top: -10px;
 }
 
@@ -2905,6 +2922,7 @@ main {
 
 .table-search {
   height: 40px !important;
+  margin-right: 10px;
 }
 
 .table-title {
@@ -2925,7 +2943,7 @@ main {
 }
 
 .table-input {
-  width: 124px !important;
+  width: 100% !important;
   height: 40px !important;
   border-radius: 5px;
   border: 1px solid #e2e2e2;
