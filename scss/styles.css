@@ -1927,8 +1927,11 @@ main {
   }
 }
 
-@media (max-width: 1650px) {
+@media (min-width: 1260px) and (max-width: 1650px) {
   .batch__block--content p {
+    font-size: 10px !important;
+  }
+  .batch__block--content__select button {
     font-size: 10px !important;
   }
   .privateData__title {
