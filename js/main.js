@@ -1,6 +1,5 @@
 const selectAll = document.querySelectorAll('.__select');
 selectAll.forEach(currentSelect => {
-    console.log(currentSelect)
 
     const currentSelect_title = currentSelect.querySelector('.__select__title');
     const currentSelect_labels = currentSelect.querySelectorAll('.__select__label');

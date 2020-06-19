@@ -2000,7 +2000,7 @@ main {
   }
   .privateData__block--content p {
     margin-bottom: 6px;
-    font-size: 10px;
+    font-size: 10px !important;
   }
   .privateData__block--content b {
     font-size: 10px;
@@ -2011,6 +2011,43 @@ main {
   .privateData__title {
     font-size: 10px !important;
     padding-left: 10px !important;
+  }
+  .privateData__block--content input::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .privateData__block--content input:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .privateData__block--content input::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .privateData__block--content input::placeholder {
+    font-size: 10px;
+  }
+  .plus small {
+    font-size: 12px !important;
+    margin-left: 25px !important;
+  }
+  .severalsPlans__basic p i {
+    font-size: 12px !important;
+  }
+  .severalsPlans__gold p i {
+    font-size: 12px !important;
+  }
+  .severalsPlans__basic p {
+    font-size: 12px !important;
+  }
+  .severalsPlans__basic p span {
+    font-size: 12px !important;
+  }
+  .severalsPlans__gold p {
+    font-size: 12px !important;
+  }
+  .severalsPlans__gold p span {
+    font-size: 12px !important;
+  }
+  .plus i {
+    top: 3px !important;
   }
 }
 
