@@ -220,6 +220,7 @@ table.table a.btn.btn-light {
 
 .btn-upload {
   min-width: 230px;
+  min-height: 40px;
 }
 
 .card {
@@ -1365,7 +1366,7 @@ main {
   font-size: 14px;
   font-weight: 500 !important;
   padding: 0 !important;
-  padding-left: 5px !important;
+  padding-left: 20px !important;
 }
 
 .login__select--content {
@@ -1927,7 +1928,17 @@ main {
   }
 }
 
+.login__select--title::before, .login__select--title::after {
+  right: 27px !important;
+}
+
 @media (min-width: 1260px) and (max-width: 1650px) {
+  table.table a.btn.btn-danger {
+    font-size: 12px !important;
+  }
+  table.table a.btn.btn-light {
+    font-size: 12px !important;
+  }
   .batch__block--content p {
     font-size: 10px !important;
   }
@@ -1956,6 +1967,38 @@ main {
 }
 
 @media (min-width: 1565px) and (max-width: 1669px) {
+  .btn-upload {
+    min-width: 100%;
+    font-size: 12px;
+  }
+  .__select {
+    width: 100%;
+  }
+  .__select__title {
+    font-size: 12px;
+  }
+  .form button {
+    font-size: 12px;
+  }
+  .order {
+    font-size: 12px;
+    width: 50% !important;
+  }
+  .form input {
+    width: 100%;
+  }
+  .form input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .form input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form input::placeholder {
+    font-size: 12px;
+  }
   .privateData__select {
     width: 113px !important;
     height: auto !important;
@@ -1968,15 +2011,52 @@ main {
   }
 }
 
-@media (min-width: 991px) and (max-width: 1564px) {
-  .__select__title::before,
-  .__select__title::after {
-    height: 2px;
-    right: 5px;
-  }
+.order {
+  display: block;
+  text-align: center;
+  width: 10%;
 }
 
 @media (min-width: 1201px) and (max-width: 1564px) {
+  .severalsArtwork__block img {
+    margin-bottom: 12px !important;
+  }
+  .severalsArtwork__block h5,
+  .severalsArtwork__block p {
+    margin-bottom: 8px !important;
+  }
+  .btn-upload {
+    min-width: 100%;
+    font-size: 10px;
+  }
+  .__select {
+    width: 100%;
+  }
+  .__select__title {
+    font-size: 10px;
+  }
+  .form button {
+    font-size: 10px;
+  }
+  .order {
+    font-size: 10px;
+    width: 50% !important;
+  }
+  .form input {
+    width: 100%;
+  }
+  .form input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .form input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form input::placeholder {
+    font-size: 12px;
+  }
   .batch__block img {
     width: 100px;
     height: 100px;
