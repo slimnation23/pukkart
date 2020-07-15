@@ -200,7 +200,6 @@ main {
   &-buttons {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 
   &-moreButtons {
@@ -1195,6 +1194,9 @@ main {
           justify-content: center;
           align-items: center;
           padding: 15px;
+          i {
+            font-size: 20px;
+          }
 
           &:hover,
           &:hover p {
@@ -1329,6 +1331,15 @@ main {
   display: block;
   text-align: center;
   width: 10%;
+}
+
+@media (max-width:1564px) {
+  .card-body-buttons a {
+    padding: 1px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1201px) and (max-width:1564px) {
@@ -1527,12 +1538,6 @@ main {
   }
 }
 
-@media (min-width: 1210px) and (max-width: 1280px) {
-  .card {
-    width: 350px !important;
-  }
-}
-
 @media (min-width: 991px) and (max-width: 1209px) {
   .card {
     width: 280px !important;
@@ -1573,6 +1578,15 @@ main {
 }
 
 @media (min-width: 1260px) and (max-width:1350px) {
+  .batch__block {
+    padding: 10px !important;
+  }
+  .__select__title::before, .__select__title::after {
+    right: 5px;
+  }
+  .privateData__block--content__select--search i {
+    font-size: 14px;
+  }
   .table-input {
     width: 100% !important;
   }
